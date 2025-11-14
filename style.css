@@ -18,6 +18,7 @@ body {
   padding: 20px;
   font-size: 14px;
   /* text-align: center; */
+  line-height: 2rem;
 }
 
 .profile-pic {
@@ -91,6 +92,14 @@ ol {
 .btech {
   font-size: 20px;
   font-family: monospace;
+}
+
+.projects a{
+text-decoration: none;
+color:#4691f3;
+}
+.c-o, .edu, .projects{
+  line-height: 3rem;
 }
 
 @media (max-width: 600px) {
